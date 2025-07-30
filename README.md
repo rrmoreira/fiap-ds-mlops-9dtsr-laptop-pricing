@@ -57,5 +57,38 @@ Laptop model pricing prediction
     └── plots.py                <- Code to create visualizations
 ```
 
+## Dagshub Commands
+
+```
+dvc init
+
+dvc add data
+
+git add .gitignore data.dvc
+
+dvc config core.autostage true
+
+git commit -m "Init dvc"
+
+git push origin develop 
+
+dvc remote add origin s3://dvc
+
+dvc remote modify origin endpointurl https://dagshub.com/rrmoreira/fiap-ds-mlops-9dtsr-laptop-pricing.s3
+
+dvc remote modify origin --local access_key_id ****
+
+dvc remote modify origin --local secret_access_key ****
+
+importar o dataset na pasta data/raw 
+
+dvc commit   
+
+dvc remote default origin
+
+dvc push 
+
+```
+
 --------
 
