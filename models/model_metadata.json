@@ -1,0 +1,7 @@
+{
+  "model_name": "laptop-pricing-model-brl",
+  "version": "1",
+  "run_id": "3039d0e0e9374c9b8e5b21c1d4a93839",
+  "source": "mlflow-artifacts:/a0cd437434354e3a90f60b591ac0abf7/3039d0e0e9374c9b8e5b21c1d4a93839/artifacts/model",
+  "downloaded_at": "2025-07-31T14:53:38.347889"
+}
