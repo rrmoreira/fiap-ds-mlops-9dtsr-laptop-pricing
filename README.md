@@ -4,7 +4,15 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Laptop model pricing prediction
+*Laptop model pricing prediction*
+
+### Template cookiecutter
+```
+python -m pipx ensurepath
+pipx install cookiecutter-data-science
+ccds (na pasta dos projetos)
+```
+
 
 ## Project Organization
 
